@@ -4,32 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to font awesome -->
+	<script src="https://kit.fontawesome.com/fb8478e992.js" crossorigin="anonymous"></script>
     <link rel="import" href="https://raw.githubusercontent.com/elad2412/the-new-css-reset/main/css/reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles.less">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Open+Sans&family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
     <title>David-E-Alvarez</title>
 </head>
 <body>
-
-    <div id="nav-parent">
+    <header id="home"><!--header for nav and div -->
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </ul>
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
-
-
-    </div>
-
-    <section id="welcome-section">
-        <h1>David-E-Alvarez</h1>
+        <div class="titles">
+            <div>
+                <h1>David Alvarez</h1>
+                <h2>Web Developer</h2>
+                <h2>SALINAS CA</h2>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section id="about"><!-- about me section -->
+        <div>
+            <h2 id="about">About Me</h2>
+            <p>My name is David Alvarez. I currently live in Salinas, CA. Lambda 2020 student
+                working toward becoming a fullstack developer. I like to read, play drums, and eat good food.</p>
+        </div>
     </section>
-
-    <section id="projects"></section>
+    
+    <section id="skills"><!-- skills section -->
+        <h2>Skills</h2>
+        <div class="skills-container"><!--start of daddy div -->
+            <div><!-- 1 of 3 divs in div container -->
+                <i class="fas fa-heart"></i>
+                <h3>Faith</h3><!-- not final -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer fringilla nibh est, at posuere risus sollicitudin vel.
+                Vivamus gravida accumsan libero, </p>
+            </div><!-- end of div 1 -->
+            <div><!-- 2 of 3 divs in div container -->
+                <i class="fas fa-cross"></i>
+                <h3>Hope</h3><!-- not final -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer fringilla nibh est, at posuere risus sollicitudin vel.
+                Vivamus gravida accumsan libero, </p>
+            </div><!-- end of div 2 -->
+            <div><!-- 3 of 3 divs in div container -->
+                <i class="fas fa-drum"></i>
+                <h3>Love</h3><!-- not final -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer fringilla nibh est, at posuere risus sollicitudin vel.
+                Vivamus gravida accumsan libero, </p>
+            </div><!-- end of div 3 -->
+        </div><!-- end of dadddy div -->
+        
+    </section>
+    <footer>
+        <div>
+            <h2 id="contact">Contact</h2>
+            <a href="https://github.com/David-E-Alvarez"><i class="fab fa-github fa-4x"></i></a>
+        </div>
+    </footer>
+    
 </body>
 </html>
