@@ -133,7 +133,7 @@ nav{
 }
 .links a{
 	text-decoration: none;
-	color: black;
+	color: red;
 	font-size: 50px;
 }
 section{
@@ -148,6 +148,11 @@ section{
 .titles div{
 	width: 50%;
 	text-align: center;
+}
+
+.titles h1, h2{
+	color: red;
+	font-weight: bold;
 }
 
 /*header section styles*/
@@ -195,3 +200,6 @@ section{
 footer{
 	text-align: center;
 }
+
+/*Media Queries*/
+
