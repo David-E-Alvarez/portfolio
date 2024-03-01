@@ -150,7 +150,11 @@ section{
 	text-align: center;
 }
 
-.titles h1, h2{
+.titles h1{
+	color: red;
+	font-weight: bold;
+}
+.titles h2{
 	color: red;
 	font-weight: bold;
 }
