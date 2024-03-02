@@ -119,18 +119,18 @@ body{
 	line-height: 2;
 }
 
-header{
+/* header{
 	border: 5px solid purple;
-}
+} */
 
 nav{
-	border: 5px solid orange;
+	/* border: 5px solid orange; */
 	display: flex;
 	justify-content: space-around;
 }
 
 .links{
-	border: 5px solid yellow;
+	/* border: 5px solid yellow; */
 	width: 100%;
 	display:flex;
 	justify-content: space-evenly;
@@ -146,13 +146,13 @@ section{
 }
 
 .titles{
-	border: 5px solid green;
+	/* border: 5px solid green; */
 	display: flex;
 	justify-content: center;
 	
 }
 .titles div{
-	border: 5px solid blue;
+	/* border: 5px solid blue; */
 	width: 50%;
 	text-align: center;
 }
@@ -169,16 +169,16 @@ section{
 /*header section styles*/
 
 #home{
-	/*background-image: url('headerBackground.jpg');*/
+	background-image: url('headerBackground.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	/*height: 40vh;*/
+	/* height: 40vh; */
 }
 
-/*about sectino styles*/
+/*about section styles*/
 #about{
-	/*background-color: red;*/
+	background-color: red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -215,6 +215,7 @@ footer{
 /*Media Queries*/
 @media (width <= 625px){
 	.links{
+		font-size: 1em;
 		display: flex;
 		flex-direction: column;
 	}
