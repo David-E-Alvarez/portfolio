@@ -141,6 +141,10 @@ nav{
 	color: red;
 	font-size: 3em;
 }
+
+.links a:hover{
+	color: black;
+}
 section{
 	padding: 4% 0;
 }
