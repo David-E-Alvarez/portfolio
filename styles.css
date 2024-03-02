@@ -119,13 +119,18 @@ body{
 	line-height: 2;
 }
 
+header{
+	border: 5px solid purple;
+}
 
 nav{
+	border: 5px solid orange;
 	display: flex;
 	justify-content: center;
 }
 
 .links{
+	border: 5px solid yellow;
 	width: 90%;
 	display:flex;
 	justify-content: space-evenly;
@@ -134,18 +139,20 @@ nav{
 .links a{
 	text-decoration: none;
 	color: red;
-	font-size: 50px;
+	font-size: 4em;
 }
 section{
 	padding: 4% 0;
 }
 
 .titles{
+	border: 5px solid green;
 	display: flex;
 	justify-content: center;
 	
 }
 .titles div{
+	border: 5px solid blue;
 	width: 50%;
 	text-align: center;
 }
@@ -162,16 +169,16 @@ section{
 /*header section styles*/
 
 #home{
-	background-image: url('headerBackground.jpg');
+	/*background-image: url('headerBackground.jpg');*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 40vh;
+	/*height: 40vh;*/
 }
 
 /*about sectino styles*/
 #about{
-	background-color: red;
+	/*background-color: red;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
